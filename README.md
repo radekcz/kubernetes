@@ -1,6 +1,4 @@
-# kubernetes
-My kubernetes cheatsheet
-
+# My kubernetes cheatsheet
 
 --------------------------------
 
