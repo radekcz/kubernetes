@@ -34,3 +34,9 @@ alias kns='k config set-context --current'
 alias kv='k config view --minify | grep namespace:'  
 
 --------------------------------
+
+## Managing running pods
+
+kubectl exec --stdin --tty <podname> -- /bin/sh
+
+kubectl exec -it <podname> -- cat /log/my.log
